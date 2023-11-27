@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    /* left: 20px;
+    right: 20px; */
+
+}
+
+.canternir {
+    background-color: antiquewhite;
+  margin: 0 auto;
+  height: 80px;
+}
+.tr{
+        width: 480px;
+        height: 56px;
+        background-color: antiquewhite;
+       margin: 50px 50px;
+}
+main{
+    height: 460px;
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 100px;
+}
